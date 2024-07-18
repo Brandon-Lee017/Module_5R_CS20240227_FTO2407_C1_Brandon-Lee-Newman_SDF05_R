@@ -17,9 +17,9 @@ a {
 h1 {
     position: relative;
     text-align: center;
-    color: #353535;
+    color: #24006c;
     font-size: 50px;
-    font-family: "Calibri", sans-serif;
+    font-family: "Algerian", sans-serif;
 }
 
 p {
@@ -51,4 +51,44 @@ p {
     outline: none;
 }
 
-/* Add your custom styles for btn-1, btn-2, and btn-3 */
+/* 1 */
+.btn-1 {
+    background: rgb(19, 59, 8);
+    background: linear-gradient(0deg, rgb(233, 29, 158) 0%, rgba(12,25,180,1) 100%);
+    border: color(srgb rgb(217, 15, 15) rgb(240, 252, 6) rgb(0, 0, 0));
+  }
+  .btn-1:hover {
+    background: rgb(18, 161, 25);
+    background: linear-gradient(0deg, rgb(15, 15, 37) 0%, rgba(2,126,251,1) 100%);
+  }
+
+  /* 2 */
+.btn-2 {
+    background: rgb(217, 255, 0);
+    background: linear-gradient(0deg, rgb(209, 240, 6) 0%, rgb(0, 0, 0) 100%);
+    border-color: black;
+    
+  }
+  .btn-2:hover {
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(192, 195, 22, 0.5), 
+      inset -4px -4px 6px 0 rgba(17, 4, 167, 0.2),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+  }
+
+  /* 3 */
+.btn-3 {
+    background: rgb(238, 99, 0);
+  background: linear-gradient(0deg, rgb(81, 13, 13) 0%, rgba(2,126,251,1) 100%);
+}
+
+.btn-3:hover {
+    background: rgb(93, 74, 74);
+ background: linear-gradient(0deg, rgb(235, 235, 235) 0%, rgb(4, 1, 64) 100%);
+ }
+
+ /* 4 */
+ .btn-4 {
+    font-family: Verdana,sans-serif;
+    background-size: 2cm;
+} 
